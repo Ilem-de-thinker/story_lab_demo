@@ -1,0 +1,6 @@
+{
+  "name": "Quillora",
+  "description": "A premium editorial social network and publishing platform for writers, storytellers, and readers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
