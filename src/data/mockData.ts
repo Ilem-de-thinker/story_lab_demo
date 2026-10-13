@@ -132,7 +132,7 @@ export const MOCK_STORIES: Story[] = [
 
 <h2>Stories Written in Code and Concrete</h2>
 <p>We are witnessing the emergence of local data sovereign institutions, vernacular publishing platforms, and agricultural intelligence networks designed not to replace farmers, but to amplify their generational memory. As writers and builders, our obligation is to document this renaissance in our own language.</p>`,
-    coverImage: '/src/assets/images/story_african_tech_1791912314761.jpg',
+    coverImage: '/assets/images/story_african_tech_1791912314761.jpg',
     format: 'featured',
     authorId: 'author-kwame',
     author: MOCK_AUTHORS[1],
@@ -164,7 +164,7 @@ export const MOCK_STORIES: Story[] = [
 
 <h2>A Morning Protocol</h2>
 <p>Sit down before the world demands your attention. Turn off the notifications, keep the fountain pen filled, and write one sentence that cannot be easily disproven. Do this every morning, and the book will arrive not through force, but through relentless presence.</p>`,
-    coverImage: '/src/assets/images/story_quiet_discipline_1791912314955.jpg',
+    coverImage: '/assets/images/story_quiet_discipline_1791912314955.jpg',
     format: 'horizontal',
     authorId: 'user-current',
     author: CURRENT_USER,
@@ -196,7 +196,7 @@ export const MOCK_STORIES: Story[] = [
 
 <h2>How to Practice Literary Engineering</h2>
 <p>Begin with your commit messages. Treat each pull request summary like a short essay for an intelligent reader. Document invariants not with code comments that rot, but with enduring system design narratives.</p>`,
-    coverImage: '/src/assets/images/story_developer_writer_1791912316690.jpg',
+    coverImage: '/assets/images/story_developer_writer_1791912316690.jpg',
     format: 'horizontal',
     authorId: 'author-marcus',
     author: MOCK_AUTHORS[3],
@@ -222,7 +222,7 @@ export const MOCK_STORIES: Story[] = [
 <blockquote>"Forgive yourself for the paths you did not choose; they were necessary sacrifices for the life you now inhabit."</blockquote>
 
 <p>Stay loyal to the people who knew you before you learned how to explain yourself. Speak softly, hold your convictions gently, and never lose your wonder at the rhythm of a well-balanced sentence.</p>`,
-    coverImage: '/src/assets/images/hero_editorial_desk_1791912314353.jpg',
+    coverImage: '/assets/images/hero_editorial_desk_1791912314353.jpg',
     format: 'grid',
     authorId: 'author-clara',
     author: MOCK_AUTHORS[2],
@@ -248,7 +248,7 @@ export const MOCK_STORIES: Story[] = [
 <blockquote>"To write slowly is an act of political resistance against the tyranny of the ephemeral feed."</blockquote>
 
 <p>When you protect an idea from premature exposure, you allow it to gather root depth. You test its logic against changing seasons. What emerges is not a fleeting reaction to yesterday's headlines, but a timeless offering.</p>`,
-    coverImage: '/src/assets/images/story_ideas_time_1791912316437.jpg',
+    coverImage: '/assets/images/story_ideas_time_1791912316437.jpg',
     format: 'grid',
     authorId: 'author-julian',
     author: MOCK_AUTHORS[5],
@@ -299,7 +299,7 @@ export const MOCK_STORIES: Story[] = [
 <blockquote>"When an elder dies without an apprentice, a library burns down without leaving ashes."</blockquote>
 
 <p>Today, as we design digital platforms and civic institutions, we would do well to study these narrative architectures. They understood centuries ago that no system can survive if it allows a single actor to drain the common reservoir.</p>`,
-    coverImage: '/src/assets/images/story_african_tech_1791912314761.jpg',
+    coverImage: '/assets/images/story_african_tech_1791912314761.jpg',
     format: 'horizontal',
     authorId: 'author-amara',
     author: MOCK_AUTHORS[4],
@@ -344,7 +344,7 @@ export const MOCK_STORIES: Story[] = [
     content: `<p>When each comma weighs four grams of lead alloy and takes ninety seconds to justify inside a wooden composing stick, you do not write careless sentences. You look at every modifier with ruthless skepticism. Does this adverb justify carrying its weight across the print shop floor?</p>
 
 <p>The digital screen has eliminated the physical cost of verbosity. Because an infinite number of words can be generated for zero marginal electricity, we are drowning in slack prose. Returning to the letterpress is a reminder that ink has dignity.</p>`,
-    coverImage: '/src/assets/images/story_ideas_time_1791912316437.jpg',
+    coverImage: '/assets/images/story_ideas_time_1791912316437.jpg',
     format: 'grid',
     authorId: 'author-clara',
     author: MOCK_AUTHORS[2],
@@ -387,7 +387,7 @@ export const MOCK_STORIES: Story[] = [
     content: `<p>The reader who clicks your headline is making an act of radical trust. In an era where eight competing notifications chime every minute, they have paused to listen to your voice. Do not begin by clearing your throat.</p>
 
 <p>Look at Melville: "Call me Ishmael." Three syllables. An invitation that immediately questions identity and destiny. Look at Joan Didion: "We tell ourselves stories in order to live." A philosophical thesis and a warning in nine words.</p>`,
-    coverImage: '/src/assets/images/hero_editorial_desk_1791912314353.jpg',
+    coverImage: '/assets/images/hero_editorial_desk_1791912314353.jpg',
     format: 'horizontal',
     authorId: 'user-current',
     author: CURRENT_USER,
@@ -409,7 +409,7 @@ export const MOCK_STORIES: Story[] = [
     content: `<p>If you read sixty books this year but cannot recall a single argument from fifty of them, were you reading or were you merely consuming letters like popcorn? Speed reading is a symptom of vanity, not intellectual hunger.</p>
 
 <p>To truly possess a book, you must write inside it. You must argue with the author in the margins, fold down the corners that angered you, and copy the sentences that stopped your heart into a commonplace notebook.</p>`,
-    coverImage: '/src/assets/images/story_developer_writer_1791912316690.jpg',
+    coverImage: '/assets/images/story_developer_writer_1791912316690.jpg',
     format: 'grid',
     authorId: 'author-julian',
     author: MOCK_AUTHORS[5],
@@ -623,7 +623,7 @@ export const MOCK_DRAFTS: Draft[] = [
     title: 'On the Dignity of Obsolete Tools',
     subtitle: 'Why fountain pens, mechanical watches, and paper filing systems sharpen cognitive fidelity.',
     content: '<p>There is an intentional friction to physical apparatus that software engineers spend lifetimes attempting to remove...</p>',
-    coverImage: '/src/assets/images/hero_editorial_desk_1791912314353.jpg',
+    coverImage: '/assets/images/hero_editorial_desk_1791912314353.jpg',
     topic: 'Philosophy of Mind',
     tags: ['Slow Living', 'Craft', 'Tools'],
     wordCount: 1420,
@@ -634,7 +634,7 @@ export const MOCK_DRAFTS: Draft[] = [
     title: 'The Great Architectural Silences',
     subtitle: 'What Gothic stone vaults teach us about structural pauses in long-form prose.',
     content: '<p>A building does not impress through stone alone; it commands reverie through the air it encloses between its buttresses...</p>',
-    coverImage: '/src/assets/images/story_quiet_discipline_1791912314955.jpg',
+    coverImage: '/assets/images/story_quiet_discipline_1791912314955.jpg',
     topic: 'The Craft of Writing',
     tags: ['Architecture', 'Prose', 'Pacing'],
     wordCount: 940,
@@ -645,7 +645,7 @@ export const MOCK_DRAFTS: Draft[] = [
     title: 'Notes on Nairobi Nocturnes',
     subtitle: 'A prose poem sequence recorded along Ngong Road during late-night thunderstorm season.',
     content: '<p>The jacaranda blossoms fall like purple indigo stamps on wet macadam, washed clean by thirty minutes of torrential skies...</p>',
-    coverImage: '/src/assets/images/story_african_tech_1791912314761.jpg',
+    coverImage: '/assets/images/story_african_tech_1791912314761.jpg',
     topic: 'Poetry & Translation',
     tags: ['Poetry', 'Nairobi', 'Night'],
     wordCount: 620,
@@ -767,7 +767,7 @@ export const MOCK_STATUSES: WriterStatus[] = [
     author: MOCK_AUTHORS[1],
     text: 'Writing about decentralized microgrids from an open terrace in Osu. The power fluctuated twice, but the local solar bank kept every packet moving. That is resilience.',
     bgGradient: 'from-blue-900 to-indigo-950',
-    imageUrl: '/src/assets/images/story_african_tech_1791912314761.jpg',
+    imageUrl: '/assets/images/story_african_tech_1791912314761.jpg',
     createdAt: '45m ago',
     viewsCount: 218,
     reactionsCount: 42,
@@ -778,7 +778,7 @@ export const MOCK_STATUSES: WriterStatus[] = [
     author: MOCK_AUTHORS[2],
     text: 'Finished poem #14 for "The Geometry of Winter Solitude". In verse, the silence between words carries twice the physical mass of sound.',
     bgGradient: 'from-amber-900 via-stone-900 to-black',
-    imageUrl: '/src/assets/images/story_ideas_time_1791912316437.jpg',
+    imageUrl: '/assets/images/story_ideas_time_1791912316437.jpg',
     createdAt: '2h ago',
     viewsCount: 340,
     reactionsCount: 68,
@@ -789,7 +789,7 @@ export const MOCK_STATUSES: WriterStatus[] = [
     author: MOCK_AUTHORS[3],
     text: 'If you cannot explain why a software function exists in one clean paragraph of prose, you are building an accident, not an architecture.',
     bgGradient: 'from-blue-950 to-slate-900',
-    imageUrl: '/src/assets/images/story_developer_writer_1791912316690.jpg',
+    imageUrl: '/assets/images/story_developer_writer_1791912316690.jpg',
     createdAt: '3h ago',
     viewsCount: 512,
     reactionsCount: 95,
@@ -800,7 +800,7 @@ export const MOCK_STATUSES: WriterStatus[] = [
     author: CURRENT_USER,
     text: 'Early morning coffee, rain on the balcony glass, and the quiet discipline to meet the discarded chapter without resentment.',
     bgGradient: 'from-stone-900 to-neutral-950',
-    imageUrl: '/src/assets/images/story_quiet_discipline_1791912314955.jpg',
+    imageUrl: '/assets/images/story_quiet_discipline_1791912314955.jpg',
     createdAt: '5h ago',
     viewsCount: 680,
     reactionsCount: 124,
@@ -811,7 +811,7 @@ export const MOCK_STATUSES: WriterStatus[] = [
     author: MOCK_AUTHORS[5],
     text: 'We confuse fast retrieval with deep comprehension. A single sentence that halts you for ten minutes leaves a permanent geological deposit in your consciousness.',
     bgGradient: 'from-indigo-950 via-slate-900 to-amber-950',
-    imageUrl: '/src/assets/images/hero_editorial_desk_1791912314353.jpg',
+    imageUrl: '/assets/images/hero_editorial_desk_1791912314353.jpg',
     createdAt: '7h ago',
     viewsCount: 420,
     reactionsCount: 88,

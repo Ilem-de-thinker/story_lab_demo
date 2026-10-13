@@ -17,10 +17,10 @@ const GRADIENT_PRESETS = [
 ];
 
 const IMAGE_PRESETS = [
-  { label: 'Manuscript Desk', url: '/src/assets/images/hero_editorial_desk_1791912314353.jpg' },
-  { label: 'African Tech', url: '/src/assets/images/story_african_tech_1791912314761.jpg' },
-  { label: 'Quiet Studio', url: '/src/assets/images/story_quiet_discipline_1791912314955.jpg' },
-  { label: 'Letterpress', url: '/src/assets/images/story_ideas_time_1791912316437.jpg' },
+  { label: 'Manuscript Desk', url: '/assets/images/hero_editorial_desk_1791912314353.jpg' },
+  { label: 'African Tech', url: '/assets/images/story_african_tech_1791912314761.jpg' },
+  { label: 'Quiet Studio', url: '/assets/images/story_quiet_discipline_1791912314955.jpg' },
+  { label: 'Letterpress', url: '/assets/images/story_ideas_time_1791912316437.jpg' },
 ];
 
 export const CreateStatusModal: React.FC<CreateStatusModalProps> = ({ isOpen, onClose }) => {

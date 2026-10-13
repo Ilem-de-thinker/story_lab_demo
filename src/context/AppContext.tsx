@@ -65,6 +65,17 @@ const STORAGE_KEYS = {
   FOLLOWED: 'quillora_followed_authors',
 };
 
+const normalizeAssetUrl = (url?: string): string | undefined => {
+  if (!url) return url;
+  if (url.startsWith('../src/assets/images/')) {
+    return url.replace('../src/assets/images/', '/assets/images/');
+  }
+  if (url.startsWith('/src/assets/images/')) {
+    return url.replace('/src/assets/images/', '/assets/images/');
+  }
+  return url;
+};
+
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.THEME);
@@ -81,17 +92,44 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
   const [stories, setStories] = useState<Story[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.STORIES);
-    return saved ? JSON.parse(saved) : MOCK_STORIES;
+    if (!saved) return MOCK_STORIES;
+    try {
+      const parsed: Story[] = JSON.parse(saved);
+      return parsed.map((story) => ({
+        ...story,
+        coverImage: normalizeAssetUrl(story.coverImage),
+      }));
+    } catch {
+      return MOCK_STORIES;
+    }
   });
 
   const [statuses, setStatuses] = useState<WriterStatus[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.STATUSES);
-    return saved ? JSON.parse(saved) : MOCK_STATUSES;
+    if (!saved) return MOCK_STATUSES;
+    try {
+      const parsed: WriterStatus[] = JSON.parse(saved);
+      return parsed.map((status) => ({
+        ...status,
+        imageUrl: normalizeAssetUrl(status.imageUrl),
+      }));
+    } catch {
+      return MOCK_STATUSES;
+    }
   });
 
   const [drafts, setDrafts] = useState<Draft[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.DRAFTS);
-    return saved ? JSON.parse(saved) : MOCK_DRAFTS;
+    if (!saved) return MOCK_DRAFTS;
+    try {
+      const parsed: Draft[] = JSON.parse(saved);
+      return parsed.map((draft) => ({
+        ...draft,
+        coverImage: normalizeAssetUrl(draft.coverImage),
+      }));
+    } catch {
+      return MOCK_DRAFTS;
+    }
   });
 
   const [notifications, setNotifications] = useState<Notification[]>(() => {

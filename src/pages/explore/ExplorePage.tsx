@@ -277,7 +277,7 @@ export const ExplorePage: React.FC = () => {
               <div className="bg-[#FFFFFF] dark:bg-[#151A24] border border-[#E9E6E0] dark:border-[#272E3B] rounded-md overflow-hidden group">
                 <div className="aspect-[16/9] overflow-hidden bg-[#F1EFEA] dark:bg-[#1E2430]">
                   <img
-                    src="/src/assets/images/story_african_tech_1791912314761.jpg"
+                    src="/assets/images/story_african_tech_1791912314761.jpg"
                     alt="African tech collection"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -308,7 +308,7 @@ export const ExplorePage: React.FC = () => {
               <div className="bg-[#FFFFFF] dark:bg-[#151A24] border border-[#E9E6E0] dark:border-[#272E3B] rounded-md overflow-hidden group">
                 <div className="aspect-[16/9] overflow-hidden bg-[#F1EFEA] dark:bg-[#1E2430]">
                   <img
-                    src="/src/assets/images/story_ideas_time_1791912316437.jpg"
+                    src="/assets/images/story_ideas_time_1791912316437.jpg"
                     alt="Letterpress and slow writing"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />

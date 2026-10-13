@@ -67,7 +67,7 @@ export const WriterProfilePage: React.FC = () => {
           {/* Rectangular Profile Banner (Never circular) */}
           <div className="h-44 sm:h-52 bg-[#F1EFEA] dark:bg-[#1E2430] border-b border-[#E9E6E0] dark:border-[#272E3B] relative overflow-hidden">
             <img
-              src="/src/assets/images/hero_editorial_desk_1791912314353.jpg"
+              src="/assets/images/hero_editorial_desk_1791912314353.jpg"
               alt="Author banner"
               className="w-full h-full object-cover opacity-80"
             />

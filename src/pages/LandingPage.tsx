@@ -104,7 +104,7 @@ export const LandingPage: React.FC = () => {
               <div className="bg-[#FFFFFF] dark:bg-[#151A24] border border-[#E9E6E0] dark:border-[#272E3B] rounded-lg p-5 shadow-sm space-y-4">
                 <div className="relative aspect-[16/10] overflow-hidden rounded bg-[#F1EFEA] dark:bg-[#161B24] border border-[#E9E6E0] dark:border-[#272E3B]">
                   <img
-                    src="../src/assets/images/hero_editorial_desk_1791912314353.jpg"
+                    src="/assets/images/hero_editorial_desk_1791912314353.jpg"
                     alt="Author study workspace"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"

@@ -17,11 +17,11 @@ import {
 import { AuthorAvatar } from '../../components/common/AuthorAvatar';
 
 const EDITORIAL_IMAGE_OPTIONS = [
-  { label: 'Author Desk & Manuscript', url: '/src/assets/images/hero_editorial_desk_1791912314353.jpg' },
-  { label: 'African Tech Campus', url: '/src/assets/images/story_african_tech_1791912314761.jpg' },
-  { label: 'Quiet Loft Studio', url: '/src/assets/images/story_quiet_discipline_1791912314955.jpg' },
-  { label: 'Letterpress Movable Type', url: '/src/assets/images/story_ideas_time_1791912316437.jpg' },
-  { label: 'Developer Study & Tea', url: '/src/assets/images/story_developer_writer_1791912316690.jpg' },
+  { label: 'Author Desk & Manuscript', url: '/assets/images/hero_editorial_desk_1791912314353.jpg' },
+  { label: 'African Tech Campus', url: '/assets/images/story_african_tech_1791912314761.jpg' },
+  { label: 'Quiet Loft Studio', url: '/assets/images/story_quiet_discipline_1791912314955.jpg' },
+  { label: 'Letterpress Movable Type', url: '/assets/images/story_ideas_time_1791912316437.jpg' },
+  { label: 'Developer Study & Tea', url: '/assets/images/story_developer_writer_1791912316690.jpg' },
 ];
 
 export const WritingStudioPage: React.FC = () => {
